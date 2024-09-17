@@ -1,0 +1,84 @@
+body {
+    font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace; /* Code-like fonts */
+    color: #839496; /* Base0 - Light gray text */
+    background-color: #002b36; /* Base03 - Dark background */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #073642; /* Base02 - Lighter dark background */
+    color: #b58900; /* Yellow - Header text */
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 2px solid #2aa198; /* Cyan border */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+main {
+    padding: 2rem;
+    color: #839496; /* Base0 - Light gray for content text */
+}
+
+section {
+    background: #073642; /* Base02 */
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(42, 161, 152, 0.2); /* Cyan glow */
+    border: 1px solid #859900; /* Green border */
+}
+
+h2 {
+    border-bottom: 2px solid #859900; /* Green underlining */
+    padding-bottom: 0.5rem;
+    font-size: 1.8rem;
+    color: #b58900; /* Yellow for section titles */
+}
+
+h3 {
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+    color: #2aa198; /* Cyan for subtitles */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #859900; /* Green links */
+    font-size: 1.2rem;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #2aa198; /* Cyan hover effect */
+}
+
+footer {
+    background: #073642; /* Base02 */
+    color: #839496; /* Base0 - Light gray */
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
